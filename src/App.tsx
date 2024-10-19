@@ -32,9 +32,9 @@ const App = () => {
         setWeatherData({
           country: data.location.country,
           cityName: data.location.region,
-          temperature: data.current.condition.temp_c,
+          temperature: data.current.temp_c,
           conditionText: data.current.condition.text,
-          icon: data.location.lon
+          icon: data.current.condition.icon
         })
       })
   }
