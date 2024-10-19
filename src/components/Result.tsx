@@ -25,8 +25,6 @@ const Result = (props:weatherDataProps)=>{
             </div> 
             }
         </div>
-        // <h1>気象データ{props.weatherData.country}</h1>
-        // <p>{weatherData.results.country}</p>
     )
 }
 
